@@ -18,7 +18,20 @@ The project involves the following key steps:
 
 The directory structure for this project is as follows:
 
-Object-Detection-FineTuning/ │ ├── data/ # PennFudan dataset │ ├── PennFudanPed/ # Dataset directory │ │ ├── PNGImages/ # Images folder │ │ ├── PedMasks/ # Masks folder │ ├── engine.py # Contains training and evaluation functions ├── utils.py # Helper functions ├── main.py # Main file to train the model ├── requirements.txt # Dependencies └── README.md # Project
+Object-Detection-FineTuning/  
+├── data/                   # Directory for datasets  
+│   ├── PennFudanPed/       # PennFudan dataset directory  
+│       ├── PNGImages/      # Folder containing images  
+│       ├── PedMasks/       # Folder containing masks  
+├── engine.py               # File containing training and evaluation functions  
+├── utils.py                # File for helper functions  
+├── main.py                 # Main script to train the model  
+├── requirements.txt        # File listing project dependencies  
+└── README.md               # Documentation for the project  
+
+
+
+
 
 
 
